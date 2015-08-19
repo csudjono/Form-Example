@@ -6,25 +6,39 @@
 </head>
 <body>
 	<form action="#" method="GET">
-		<label for="first_name">First Name</label>
-		<input placeholder="Bobby" type="text" id="first_name" name="first_name" diabled>
+		<div>
+			<label for="first_name">First Name</label>
+		</div>
+		<div>
+			<input placeholder="Bobby" type="text" id="first_name" name="first_name" diabled>
+		</div>
 		
-		<label for="last_name">Last Name</label>
-		<input placeholder="Smith" type="text" id="last_name" name="last_name" required>
+		<div>
+			<label for="last_name">Last Name</label>
+		</div>
+		<div>
+			<input placeholder="Smith" type="text" id="last_name" name="last_name" required>
+		</div>	
 		
-		<label for="email_address">Email Address</label>
-		<input type="email" placeholder="you@example.com" id="email_address" name="email_address">
+		<div>
+			<label for="email_address">Email Address</label>
+		</div>
+		<div>
+			<input type="email" placeholder="you@example.com" id="email_address" name="email_address">
+		</div>
+	
+		<aside>
+			<p>What is Your Favorite Color?</p>
+			<label for="blue">blue</label>
+			<input type="radio" id="blue" name="color">
+		
+			<label for="green">green</label>
+			<input type="radio" id="green" name="color">
 
-		<p>What is Your Favorite Color?</p>
-		<label for="blue">blue</label>
-		<input type="radio" id="blue" name="color">
-		
-		<label for="green">green</label>
-		<input type="radio" id="green" name="color">
+			<label for="red">red</label>
+			<input type="radio" id="red" name="color">
+		</aside>
 
-		<label for="red">red</label>
-		<input type="radio" id="red" name="color">
-		
 		<button type="submit">Submit</button>
 	</form>
 
