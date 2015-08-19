@@ -7,13 +7,23 @@
 <body>
 	<form action="#" method="GET">
 		<label for="first_name">First Name</label>
-		<input placeholder="Bobby" type="text" id="first_name" name="first_name" required>
+		<input placeholder="Bobby" type="text" id="first_name" name="first_name" diabled>
 		
 		<label for="last_name">Last Name</label>
 		<input placeholder="Smith" type="text" id="last_name" name="last_name" required>
 		
 		<label for="email_address">Email Address</label>
 		<input type="email" placeholder="you@example.com" id="email_address" name="email_address">
+
+		<p>What is Your Favorite Color?</p>
+		<label for="blue">blue</label>
+		<input type="radio" id="blue" name="color">
+		
+		<label for="blue">green</label>
+		<input type="radio" id="green" name="color">
+
+		<label for="blue">red</label>
+		<input type="radio" id="red" name="color">
 		
 		<button type="submit">Submit</button>
 	</form>
