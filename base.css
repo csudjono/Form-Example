@@ -1,0 +1,56 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffffff;
+	color: #1B3D50;
+}
+
+fieldset {
+	border: none;
+	display: inline;
+}
+
+form{
+	width: 800px;
+	margin: auto;
+	text-decoration: none;
+}
+
+label {
+	line-height: 40px;
+}
+
+input {
+	display: block;
+	border-radius: 5px;
+	width: 150px;
+	height: 25px;
+}
+
+input:focus {
+    outline:none;
+}
+
+.color {
+	display: inline;
+	height: 15px;
+	width: 60px;
+}
+
+button {
+	display: block;
+	margin-top: 10px;
+	width: 120px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #B44A3C;
+	box-shadow: none;
+	color: white;
+	padding: 5px 10px;
+  	border: 1px solid #666;
+  	text-decoration: none;
+  	margin: 0 0 0 13px;
+}
+
+#fav_pet {
+	display: block;
+}
