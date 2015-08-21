@@ -3,41 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Survey Form</title>
+	<link rel="stylesheet" href="base.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<form action="#" method="GET">
-		<div>
+		<fieldset>
 			<label for="first_name">First Name</label>
-		</div>
-		<div>
-			<input placeholder="Bobby" type="text" id="first_name" name="first_name" diabled>
-		</div>
+			<input placeholder="Bobby" type="text" id="first_name" name="first_name" required>
+		</fieldset>
 		
-		<div>
+		<fieldset>
 			<label for="last_name">Last Name</label>
-		</div>
-		<div>
 			<input placeholder="Smith" type="text" id="last_name" name="last_name" required>
-		</div>	
-		
-		<div>
-			<label for="email_address">Email Address</label>
-		</div>
-		<div>
-			<input type="email" placeholder="you@example.com" id="email_address" name="email_address">
-		</div>
+		</fieldset>
 	
-		<aside>
+		<fieldset>
+			<label for="middle_init">M.I.</label>
+			<input placeholder="L." type="text" id="middle_init" name="middle_init">
+		</fieldset>
+	
+		<fieldset>
+			<label for="email_address">Email Address</label>
+			<input type="email" placeholder="you@example.com" id="email_address" name="email_address">
+		</fieldset>
+	
+		<fieldset id="color">
 			<p>What is Your Favorite Color?</p>
 			<label for="blue">blue</label>
-			<input type="radio" id="blue" name="color">
+			<input type="radio" id="blue" name="color" class="color">
 		
 			<label for="green">green</label>
-			<input type="radio" id="green" name="color">
+			<input type="radio" id="green" name="color" class="color">
 
 			<label for="red">red</label>
-			<input type="radio" id="red" name="color">
-		</aside>
+			<input type="radio" id="red" name="color" class="color">
+		</fieldset>
+
+		<fieldset>
+			<label for="fav_pet">Favourite Pet</label>
+			<input type="fav_pet" placeholder="cats" id="fav_pet" name="fav_pet">
+		</fieldset>
 
 		<button type="submit">Submit</button>
 	</form>
